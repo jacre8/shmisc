@@ -46,12 +46,12 @@ else
 fi || exit
 read1 ()
 {
-	read l1 <&4
+	read -r l1 <&4
 	rc1=$?
 }
 read2 ()
 {
-	read l2 <&5
+	read -r l2 <&5
 	rc2=$?
 }
 oc1 ()
